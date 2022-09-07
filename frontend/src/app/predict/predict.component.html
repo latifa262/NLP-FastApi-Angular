@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>
+            <h3 style="text-align:center"></h3>
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form>
+            <mat-form-field style="width: 100%">
+                <textarea [(ngModel)]="data" name="data" matInput placeholder="Add Sentence"></textarea>
+            </mat-form-field>
+            <br>
+            <button (click)="onPredict()" mat-raised-button style="background-color: IndianRed;">Check</button>
+        </form>
+
+        
+    </mat-card-content>
+    <div class="result">
+        <p>Result :  {{predic}}</p>
+    </div>
+        
+  </mat-card>
+  
+  
+  
+  
+  
+  

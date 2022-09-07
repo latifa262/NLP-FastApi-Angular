@@ -1,4 +1,8 @@
 ## Table of contents
+- this is an app that help to analyze how travellers expressed their feelings 
+   on Twitter about the Airlines is it positive or negative.
+   This work can be useful for the airline company to understand what are the problems to working on.
+   
 * [FastApi](#fastapi)
 * [Frontend](#frontend)
 * [Running it all together](#Running-it-all-together)
@@ -6,7 +10,7 @@
 
 ## FastApi
 After the creation of the nlp model the next step is to save the model in $\color[rgb]{1,1,1} model.h5$
- and the Tokenizer $\color[rgb]{1,1,1} tokenizer.pickle$, so we can load both files in the $\color[rgb]{1,1,1} main file$ This file puts all other pieces together and builds the REST API with FastAPI.
+and the Tokenizer $\color[rgb]{1,1,1} tokenizer.pickle$, so we can load both files in the $\color[rgb]{1,1,1} main file$ This file puts all other pieces together and builds the REST API with FastAPI.
 
 -- Install FastApi and ASGI server :
 ```

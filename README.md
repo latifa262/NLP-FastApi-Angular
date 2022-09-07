@@ -20,3 +20,9 @@ $uvicorn main:app --reload
 FastAPI provides an Automatic Interactive API documentation page. To access it navigate to http://127.0.0.1:8000/docs in your browser and then you will see the documentation page created automatically by FastAPI.
 
 ## Frontend
+For the web application, we use Angular. For that, you need to install Node.js and npm.
+to install Angular:
+
+```
+$npm install -g angular-cli
+```

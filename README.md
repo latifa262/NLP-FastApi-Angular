@@ -1,5 +1,5 @@
 ## Table of contents
-   This is an app that helps to analyze travelers feelings on Twitter about the Airlines is it positive or negative. 
+   This is an app that helps to analyze travelers feelings on Twitter about the Airlines, is it positive or negative. 
    This work can be useful for the airline company to understand what are the problems to work on.
    
 * [FastApi](#fastapi)

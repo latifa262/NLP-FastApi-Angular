@@ -1,7 +1,7 @@
 ## Table of contents
 * [FastApi](#fastapi)
 * [Frontend](#frontend)
-* [Running it all together](#Running it all together)
+* [Running it all together](#Running-it-all-together)
 
 
 ## FastApi

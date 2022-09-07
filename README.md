@@ -13,5 +13,10 @@ After the creation of the nlp model the next step is to save the model in $\colo
 $pip install fastapi
 $pip install uvicorn
 ```
+-- to testing the server-side
+```
+$uvicorn main:app --reload
+
+```
 
 ## Frontend

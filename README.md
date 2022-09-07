@@ -29,3 +29,20 @@ For the web application, we use Angular. For that, you need to :
 5. Then: ``` npm install ```
 6. And: ``` ng serve ```
 7. Navigate to http://localhost:4200/
+
+## Running it all together
+
+To run the server side you need to go to the fastapi foler :
+```
+uvicorn main:app --reload
+```
+In another terminal you need to go to the frontend folder :
+```
+npm install
+ng serve
+```
+Once you have done so, you can go to localhost:4200 and test the application.
+
+
+
+
